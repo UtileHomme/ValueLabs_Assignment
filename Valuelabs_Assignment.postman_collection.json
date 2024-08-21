@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "75816e67-1983-40ac-9f23-95cc46512189",
+		"name": "Valuelabs_Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20143036"
+	},
+	"item": [
+		{
+			"name": "Get_Tracking_Number",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/next-tracking-number/?origin_country_id=MY&destination_country_id=ID&weight=1.235&created_at=2024-08-21T12:00:00Z&customer_id=de619854-b59b-425e-9db4-943979e1bd49&customer_name=RedBox%20Logistics&customer_slug=redbox-logistics",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"next-tracking-number",
+						""
+					],
+					"query": [
+						{
+							"key": "origin_country_id",
+							"value": "MY"
+						},
+						{
+							"key": "destination_country_id",
+							"value": "ID"
+						},
+						{
+							"key": "weight",
+							"value": "1.235"
+						},
+						{
+							"key": "created_at",
+							"value": "2024-08-21T12:00:00Z"
+						},
+						{
+							"key": "customer_id",
+							"value": "de619854-b59b-425e-9db4-943979e1bd49"
+						},
+						{
+							"key": "customer_name",
+							"value": "RedBox%20Logistics"
+						},
+						{
+							"key": "customer_slug",
+							"value": "redbox-logistics"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
